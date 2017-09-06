@@ -81,7 +81,7 @@ BOARD_USES_GROUPER_MODULES := true
 
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 TARGET_RECOVERY_UI_LIB := librecovery_ui_grouper
-MALLOC_IMPL := dlmalloc
+MALLOC_SVELTE := true
 
 BOARD_SEPOLICY_DIRS += \
         device/asus/grouper/sepolicy
